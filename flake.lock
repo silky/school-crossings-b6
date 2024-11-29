@@ -14,15 +14,16 @@
         "treefmt-nix": "treefmt-nix_2"
       },
       "locked": {
-        "lastModified": 1732633395,
-        "narHash": "sha256-xpcBTVjWUlEN526pTjnjoSTeAZ/HWOGgEcT0NKtYoV0=",
+        "lastModified": 1732840997,
+        "narHash": "sha256-EGY4nwQ34V+3dkh7P/OiwuJOz0/LA5oLCSsBHgFU1wM=",
         "owner": "diagonalworks",
         "repo": "diagonal-b6",
-        "rev": "5191031408e3b13aa72caf87d096bbc692f781a3",
+        "rev": "60adfad2066c54f3d1a6370b5a0c91fc2acbf32c",
         "type": "github"
       },
       "original": {
         "owner": "diagonalworks",
+        "ref": "is-valid-and-geometry",
         "repo": "diagonal-b6",
         "type": "github"
       }

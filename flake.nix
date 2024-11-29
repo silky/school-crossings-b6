@@ -8,7 +8,8 @@
 
     # Note: This has to stay as a single expression as we use sed to replace
     # it in the 'ci-nix' CI task.
-    diagonal-b6.url = "github:diagonalworks/diagonal-b6";
+    # diagonal-b6.url = "git+file:///home/noon/dev/diagonal/b6";
+    diagonal-b6.url = "github:diagonalworks/diagonal-b6/is-valid-and-geometry";
     diagonal-b6.inputs.nixpkgs.follows = "nixpkgs";
   };
 
