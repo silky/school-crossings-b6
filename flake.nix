@@ -1,15 +1,10 @@
 {
   inputs = {
-    # Note: This _must_ match the one coming from the version in diagonal-b6.
-    # TODO: Work out how to do this a bit more cleanly.
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
 
     flake-utils.url = "github:numtide/flake-utils";
 
-    # Note: This has to stay as a single expression as we use sed to replace
-    # it in the 'ci-nix' CI task.
-    # diagonal-b6.url = "git+file:///home/noon/dev/diagonal/b6";
-    diagonal-b6.url = "github:diagonalworks/diagonal-b6/is-valid-and-geometry";
+    diagonal-b6.url = "github:diagonalworks/diagonal-b6/v0.2.0";
     diagonal-b6.inputs.nixpkgs.follows = "nixpkgs";
   };
 
